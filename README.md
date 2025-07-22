@@ -74,7 +74,7 @@ Create a `.env` file in the root directory:
 ```ini
 PORT=8001
 MONGO_URI=mongodb://localhost:27017/url-shortener
-JWT_SECRET="Rahil$$$123"
+JWT_SECRET="Rahil$$$124"
 ```
 
 > 💡 Alternatively, you can directly update `connection.js` and `services/auth.js` with your Mongo URI and JWT secret.
